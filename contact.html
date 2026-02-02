@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Prime Facility Care</title>
+  <meta name="description" content="Request a quote for commercial janitorial services. Contact Prime Facility Care for office, medical, retail, industrial, and floor care cleaning programs.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">P</span>
+        <span class="logo-text">Prime Facility Care</span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+          <li><a href="contact.html" class="nav-cta">Request Quote</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>Request a Quote or On-Site Walkthrough</h1>
+        <p>Share a few details about your facility and we will follow up to schedule a walkthrough and provide a detailed proposal.</p>
+      </div>
+    </section>
+
+    <section class="section" id="quote">
+      <div class="container contact-grid">
+        <div class="contact-details fade-in">
+          <h2>Contact Information</h2>
+          <p>We respond to most quote requests the same business day. For urgent needs, please call our office directly.</p>
+          <div class="contact-block">
+            <h3>Call Us</h3>
+            <p><a href="tel:+19035551234" class="contact-phone">(903) 555-1234</a></p>
+          </div>
+          <div class="contact-block">
+            <h3>Email</h3>
+            <p><a href="mailto:info@primefacilitycare.com">info@primefacilitycare.com</a></p>
+          </div>
+          <div class="contact-block">
+            <h3>Service Area</h3>
+            <p>East Texas and surrounding commercial corridors, including office parks, industrial areas, retail centers, and healthcare facilities.</p>
+          </div>
+          <div class="contact-block">
+            <h3>Business Hours</h3>
+            <p>Office: Mon–Fri, 8:00 am – 5:00 pm</p>
+            <p>Cleaning Shifts: Evenings, nights, and weekends by contract</p>
+            <p class="contact-note">Free on-site estimates available by appointment.</p>
+          </div>
+        </div>
+
+        <div class="contact-form-wrapper fade-in">
+          <h2>Tell Us About Your Facility</h2>
+          <form id="contact-form" action="https://formspree.io/f/xqelgewb" method="POST" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="company">Company Name</label>
+                <input type="text" id="company" name="company" placeholder="Your company or organization" required>
+                <span class="form-error" aria-live="polite"></span>
+              </div>
+              <div class="form-group">
+                <label for="contact-name">Contact Name</label>
+                <input type="text" id="contact-name" name="contact-name" placeholder="Your full name" required>
+                <span class="form-error" aria-live="polite"></span>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="(xxx) xxx-xxxx" required>
+                <span class="form-error" aria-live="polite"></span>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="_replyto" placeholder="you@company.com" required>
+                <span class="form-error" aria-live="polite"></span>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="facility-type">Facility Type</label>
+                <select id="facility-type" name="facility-type" required>
+                  <option value="">Select one...</option>
+                  <option value="office">Office Building</option>
+                  <option value="medical">Medical / Healthcare</option>
+                  <option value="retail">Retail / Showroom</option>
+                  <option value="industrial">Industrial / Warehouse</option>
+                  <option value="education">School / Educational</option>
+                  <option value="worship">Church / Nonprofit</option>
+                  <option value="other">Other Facility Type</option>
+                </select>
+                <span class="form-error" aria-live="polite"></span>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="message">Message / Cleaning Needs</label>
+                <textarea id="message" name="message" rows="5" placeholder="Tell us about your square footage, current schedule, and any problem areas you want to address." required></textarea>
+                <span class="form-error" aria-live="polite"></span>
+              </div>
+            </div>
+
+            <p class="form-helper-text">By submitting this form, you agree to be contacted regarding janitorial and facility services. We do not share your information with third parties.</p>
+
+            <button type="submit" class="btn btn-primary">Submit Request</button>
+            <p class="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <div class="footer-logo">
+          <span class="logo-mark">P</span>
+          <span class="logo-text">Prime Facility Care</span>
+        </div>
+        <p>Commercial janitorial and facility cleaning services focused on consistency, communication, and long-term partnerships.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p><a href="tel:+19035551234">(903) 555-1234</a></p>
+        <p><a href="mailto:info@primefacilitycare.com">info@primefacilitycare.com</a></p>
+        <p>Serving greater East Texas and surrounding commercial markets.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Service Hours</h4>
+        <p>Standard: Mon–Fri, 8:00 am – 5:00 pm</p>
+        <p>Cleaning Shifts: Evenings, nights, and weekends by contract</p>
+        <p>Free on-site estimates by appointment.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">Our Process</a></li>
+          <li><a href="contact.html#quote">Request a Quote</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Prime Facility Care. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
